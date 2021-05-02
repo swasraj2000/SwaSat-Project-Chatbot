@@ -4,16 +4,17 @@
     <link rel="stylesheet" type="text/css" href="/static/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
-  <body>
-    <h1>studyBOT</h1>
+  <body   >
+    <h1><img src="{{ url_for('static', filename='logo.jpg')}}" width="150" height="=100"></h1>
     <h3>An AI Bot which curates an adaptive learning path for each student</h3>
-    <body style="background-color:rgb(153, 148, 148);"></body>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+  
     <div>
       <div id="chatbox">
-        <p class="botText"><span>Hi! I'm Studybot.</span></p>
+        <p class="botText"><span>Hi! I'm studyBOT.</span></p>
       </div>
-      <div id="userInput">
-        <input id="textInput" type="text" name="msg" placeholder="Message">
+      <div id="userInput" >
+        <input id="textInput" type="text" name="msg" placeholder="Message" >
         <input id="buttonInput" type="submit" value="Send">
       </div>
       <script>
