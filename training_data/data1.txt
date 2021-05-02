@@ -1,1 +1,27 @@
+What is Python?
+Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL).
+
+Why do we use python?
+Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages. <br>Python is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain. I will list down some of the key advantages of learning Python:<br>1. Python is Interpreted ? Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP. <br>2. Python is Interactive ? You can actually sit at a Python prompt and interact with the interpreter directly to write your programs. <br>3. Python is Object-Oriented ? Python supports Object-Oriented style or technique of programming that encapsulates code within objects. <br>4. Python is a Beginner's Language ? Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.
+
+What are the characteristics of python?
+Following are important characteristics of Python Programming ? <br>1. It supports functional and structured programming methods as well as OOP. <br>2. It can be used as a scripting language or can be compiled to byte-code for building large applications. <br>3. It provides very high-level dynamic data types and supports dynamic type checking. <br>4. It supports automatic garbage collection. <br>5. It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
+
+what is the syntax for "hello world" program in python?
+print ("Hello, Python!");
+
+What are the applications of python?
+Python is one of the most widely used language over the web. I'm going to list few of them here: <br> 1. Easy-to-learn ? Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly. <br>  2. Easy-to-read ? Python code is more clearly defined and visible to the eyes.<br>  3. Easy-to-maintain ? Python's source code is fairly easy-to-maintain.<br> 4. A broad standard library ? Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.<br> 5. Interactive Mode ? Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.<br> 6. Portable ? Python can run on a wide variety of hardware platforms and has the same interface on all platforms.<br> 7. Extendable ? You can add low-level modules to the Python interpreter. These modules enable programmers to add to or customize their tools to be more efficient.<br> 8. Databases ? Python provides interfaces to all major commercial databases.<br> 9. GUI Programming ? Python supports GUI applications that can be created and ported to many system calls, libraries and windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.<br> 10. Scalable ? Python provides a better structure and support for large programs than shell scripting. <br>
+
+What are python identifiers?
+A Python identifier is a name used to identify a variable, function, class, module or other object. An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores and digits (0 to 9).<br> Python does not allow punctuation characters such as @, $, and % within identifiers. Python is a case sensitive programming language. Thus, Manpower and manpower are two different identifiers in Python.<br> Here are naming conventions for Python identifiers ? <br> 1. Class names start with an uppercase letter. All other identifiers start with a lowercase letter.<br> 2. Starting an identifier with a single leading underscore indicates that the identifier is private.<br> 2. Starting an identifier with two leading underscores indicates a strongly private identifier.<br>3. If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
+
+What are reserved words in python?
+The following list shows the Python keywords. These are reserved words and you cannot use them as constant or variable or any other identifier names. All the Python keywords contain lowercase letters only.<br>and	exec	not<br>assert	finally	or<br>break	for	pass<br>class	from	print<br>continue	global	raise<br>def	if	return<br>del	import	try<br>elif	in	while<br>else	is	with<br>except	lambda	yield
+
+How to use comments in python?
+A hash sign (#) that is not inside a string literal begins a comment. All characters after the # and up to the end of the physical line are part of the comment and the Python interpreter ignores them.
+
+What is the code for palindromes in python?
+def palin():<br>    str=input('Enter the string: ')<br>    l=len(str)<br>    p=l-1<br>    index=0<br>    while (index<p):<br>        str=str.casefold()<br>        if(str[index]==str[p]):<br>            index+=1            p=p-1<br>        else:<br>            print('String is not  <br>palindrome')<br>            break<br>    else:<br>        print('String is a palindrome')<br>palin()
 
